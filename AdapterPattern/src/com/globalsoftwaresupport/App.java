@@ -15,12 +15,12 @@ public class App {
 		for(String s : namesList)
 			System.out.println(s);
 		
-		/* Vehicle bus = new Bus();
+		Vehicle bus = new Bus();
 		Vehicle car = new Car();
 		Vehicle bicycle = new BicycleAdapter(new Bicycle());
 		
 		bus.accelerate();
 		car.accelerate();
-		bicycle.accelerate(); */
+		bicycle.accelerate();
 	}
 }

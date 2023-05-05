@@ -35,7 +35,7 @@ public class App {
 		Beverage milkWith2Sugars = new Sugar(new Sugar(new Milk(new PlainBeverage())));
 		
 		System.out.println(milkWith2Sugars.getDescription());
-		
+
 		
 	}
 }

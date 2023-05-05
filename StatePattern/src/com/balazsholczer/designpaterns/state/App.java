@@ -10,5 +10,8 @@ public class App {
 		onState.doAction(context);
 		System.out.println(context.getState().toString());
 		
+		State offState = new OffState();
+		offState.doAction(context);
+		System.out.println(context.getState().toString());
 	}
 }

@@ -1,5 +1,3 @@
-import com.sun.prism.paint.Color;
-
 public interface Tree {
 	
 	public Color getColor();

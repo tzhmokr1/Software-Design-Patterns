@@ -1,5 +1,3 @@
-import com.sun.prism.paint.Color;
-
 public class Birke implements Tree {
 	
 	private Color color;

@@ -11,7 +11,7 @@ package com.balazsholczer.command;
 
 public class App {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		final Algorithm algorithm = new Algorithm();
 		
@@ -28,7 +28,9 @@ public class App {
 		});
 		
 		t1.start();
+		t1.join();
 		t2.start();
+		t2.join();
 		
 	}
 }
